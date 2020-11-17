@@ -2,9 +2,9 @@ import requests
 from requests.auth import HTTPDigestAuth
 
 # Below, put the URL of your BigCommerce WebDAV, including the file name you want to create/upload
-#    example: 'https://store-abcdefg123.mybigcommerce.com/dav/content/uploads/products_upload_filename.csv'
+#    If you're uploading a CSV that you want to use as a product import, you will put it in the /dav/import_files/ directory.
 
-url='https://store-abcdefg123.mybigcommerce.com/dav/content/uploads/products_upload_filename.csv' # example
+url='https://store-abcdefg123.mybigcommerce.com/dav/import_files/products_upload_filename.csv' # example
 
 # Local filename relative to this python script to upload
 
